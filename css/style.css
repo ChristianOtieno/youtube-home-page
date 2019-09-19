@@ -56,22 +56,34 @@ header ul {
     width: 25px;
 }
 
+
 /* 
 [type='input'] 
 
  height:2999px;
  width:344px;
 */
+
+
 /*************/
-.feedback-section{
-    display:flex;
+
+.feedback-section {
+    display: flex;
     border-bottom: 1px solid black;
+    width: 500px;
 }
-.reactions{
+
+.reactions {
     width: 200px;
     display: flex;
     justify-content: space-between;
 }
-.views{
+
+.views {
     margin-right: 80px;
+}
+
+.views p {
+    display: relative;
+    bottom: 50px;
 }
