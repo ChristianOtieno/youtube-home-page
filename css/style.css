@@ -74,7 +74,6 @@ header ul {
     display:flex;
     border-bottom: 1px solid black;
     width: 500px;
-    /* background: silver; */
     justify-content: space-between;
 }
 
@@ -101,4 +100,15 @@ header ul {
 .account-info{
     display:flex;
     flex-direction: column;
+}
+.comment-numbers{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.sort-icon{
+    display: flex;
+}
+.comment-field{
+    display: flex;
 }
