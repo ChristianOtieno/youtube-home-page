@@ -9,7 +9,6 @@ header ul{
     width: 100%;
     display:flex;
     justify-content: space-between;
-    background: silver;
 }
 .left-side{
     width: 50px;
@@ -21,4 +20,41 @@ header ul{
     display: flex;
     margin-right: 60px;
     justify-content: space-between;
+}
+.hambuger-icon{
+    height: 35px;
+    width:40px;   
+}
+.user-icon{
+    height: 40px;
+    width:40px;
+}
+.bell-icon{
+    height: 40px;
+    width:40px;
+}
+.logo-icon{
+    height: 60px;
+    width:65px;
+}
+.upload-icon{
+    height: 40px;
+    width:40px;   
+}
+.search-icon{
+    height: 25px;
+    width:25px;   
+/* }
+.text-space{
+    background-color: red;
+    height: 1150%;
+    width:400px; */
+/* .search-bar{
+    background-color:dark-gray;
+    margin: 20px 0px 20px 0px;
+} */
+[type='input'] {
+ /* margin: 20px 0px 20px 0px; */
+ height:2999px;
+ width:344px;
 }
