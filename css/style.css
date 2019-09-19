@@ -68,22 +68,18 @@ header ul {
 /*************/
 
 .feedback-section {
-    display: flex;
+    display:flex;
     border-bottom: 1px solid black;
     width: 500px;
-}
-
-.reactions {
-    width: 200px;
-    display: flex;
+    /* background: silver; */
     justify-content: space-between;
 }
 
-.views {
-    margin-right: 80px;
+
+.reactions{
+    display:flex;
+    width: 200px;
+  
+    justify-content: space-between;
 }
 
-.views p {
-    display: relative;
-    bottom: 50px;
-}
