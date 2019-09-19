@@ -1,0 +1,24 @@
+img {
+    height: 40px;
+    width: 40px;
+}
+ul{
+    list-style: none;
+}
+header ul{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background: silver;
+}
+.left-side{
+    width: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.right-side{
+    width: 150px;
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-between;
+}
