@@ -135,3 +135,16 @@ header ul {
 .container {
     display: flex;
 }
+/* Styling the aside  */
+.screenshot img{
+    height: 150px;
+    width: 300px;
+}
+.column-one{
+    width:80%;
+}
+
+.column-one iframe{
+    width:98%;
+    height: 500px;
+}
