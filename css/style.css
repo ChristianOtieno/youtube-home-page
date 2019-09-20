@@ -1,6 +1,7 @@
-.multi-uses{
+.multi-uses {
     --back: red;
 }
+
 img {
     height: 40px;
     width: 40px;
@@ -71,44 +72,66 @@ header ul {
 /*************/
 
 .feedback-section {
-    display:flex;
+    display: flex;
     border-bottom: 1px solid black;
     width: 500px;
     justify-content: space-between;
 }
 
-
-.reactions{
-    display:flex;
+.reactions {
+    display: flex;
     width: 200px;
-  
     justify-content: space-between;
 }
+
+
 /************/
-.owner-section{
+
+.owner-section {
     width: 500px;
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid black;
 }
-.content-owner{
-    display:flex;
+
+.content-owner {
+    display: flex;
     justify-content: space-between;
 }
-.owner-info{
-    display:flex;
-    
+
+.owner-info {
+    display: flex;
 }
-.account-info{
-    display:flex;
+
+.account-info {
+    display: flex;
     flex-direction: column;
 }
-.comment-numbers{
+
+.comment-numbers {
     display: flex;
     width: 500px;
     justify-content: space-between;
 }
-.sort-icon{
+
+.sort-icon {
     display: flex;
 }
-.comment-field{
+
+.comment-field {
+    display: flex;
+}
+
+
+/****************/
+
+.user-comments {
+    display: flex;
+}
+
+.playlist {
+    align-content: left;
+    display: flex;
+}
+
+.container {
     display: flex;
 }
