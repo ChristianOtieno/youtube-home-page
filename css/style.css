@@ -63,11 +63,9 @@ header ul {
     margin-bottom: 10px;
 }
 
-.search-place {
-    background: #F0F0F0;
-    padding: 10px 5px;
-    height: 17px;
-    border-radius: 0 5px 5px 0;
+[type="button"]{
+    width: 90px;
+    
 }
 
 .search-area .text-space {
