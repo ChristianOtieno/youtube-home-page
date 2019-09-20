@@ -1,6 +1,3 @@
-.multi-uses {
-    --back: red;
-}
 
 img {
     height: 40px;
@@ -18,9 +15,8 @@ header ul {
 }
 
 .left-side {
-    width: 50px;
     display: flex;
-    /* justify-content: space-between; */
+    width: 50px;
 }
 
 .right-side {
@@ -30,9 +26,9 @@ header ul {
     justify-content: space-between;
 }
 
-.hambuger-icon {
-    height: 35px;
-    width: 40px;
+ a.hambuger-icon {
+    height: 20px;
+    width: 30px;
 }
 
 .user-icon {
@@ -48,7 +44,9 @@ header ul {
 
 .logo-icon {
     height: 60px;
-    width: 65px;
+    width: 125px;
+    display: relative;
+    bottom:10px;
 }
 
 .upload-icon {
@@ -71,14 +69,10 @@ header ul {
     width: 600px;
 }
 
-
-/* 
-[type='input'] 
-
- height:2999px;
- width:344px;
-*/
-
+.suscribe-img{
+    height: 50px;
+    width: 100px;
+}
 
 /*************/
 
