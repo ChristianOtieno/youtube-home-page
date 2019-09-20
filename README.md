@@ -1,4 +1,4 @@
-# youtube-home-page
+# Embedding Images and Video (Html & CSS)
 
 ## Microverse Embedding images and Video  in a YouTube page project
 
