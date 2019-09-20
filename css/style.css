@@ -38,6 +38,7 @@ header ul {
 .user-icon {
     height: 40px;
     width: 40px;
+    margin-right: 25px;
 }
 
 .bell-icon {
@@ -74,8 +75,12 @@ header ul {
 .feedback-section {
     display: flex;
     border-bottom: 1px solid black;
-    width: 500px;
+    width: 98%;
     justify-content: space-between;
+}
+
+.views {
+    margin-bottom: 15px;
 }
 
 .reactions {
@@ -88,8 +93,9 @@ header ul {
 /************/
 
 .owner-section {
-    width: 500px;
+    width: 98%;
     border-bottom: 1px solid black;
+    margin-top: 15px;
 }
 
 .content-owner {
@@ -125,6 +131,12 @@ header ul {
 
 .user-comments {
     display: flex;
+    width: 98%;
+    margin-top: 30px;
+}
+
+.user-profile {
+    margin-left: 25px;
 }
 
 .playlist {
@@ -135,16 +147,20 @@ header ul {
 .container {
     display: flex;
 }
+
+
 /* Styling the aside  */
-.screenshot img{
+
+.screenshot img {
     height: 150px;
     width: 300px;
 }
-.column-one{
-    width:80%;
+
+.column-one {
+    width: 80%;
 }
 
-.column-one iframe{
-    width:98%;
+.column-one iframe {
+    width: 98%;
     height: 500px;
 }
