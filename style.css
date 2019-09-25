@@ -1,4 +1,3 @@
-
 img {
     height: 40px;
     width: 40px;
@@ -26,7 +25,7 @@ header ul {
     justify-content: space-between;
 }
 
- a.hambuger-icon {
+a.hambuger-icon {
     height: 20px;
     width: 30px;
 }
@@ -46,7 +45,7 @@ header ul {
     height: 60px;
     width: 125px;
     display: relative;
-    bottom:10px;
+    bottom: 10px;
 }
 
 .upload-icon {
@@ -69,12 +68,10 @@ header ul {
     width: 600px;
 }
 
-.suscribe-img{
+.suscribe-img {
     height: 50px;
     width: 100px;
 }
-
-/*************/
 
 .feedback-section {
     display: flex;
@@ -92,9 +89,6 @@ header ul {
     width: 200px;
     justify-content: space-between;
 }
-
-
-/************/
 
 .owner-section {
     width: 98%;
@@ -139,9 +133,6 @@ header ul {
     border-bottom: 2px solid gray;
 }
 
-
-/****************/
-
 .user-comments {
     display: flex;
     width: 98%;
@@ -163,14 +154,6 @@ header ul {
 
 .container {
     display: flex;
-}
-
-
-/* Styling the aside  */
-
-.screenshot img {
-    height: 150px;
-    width: 300px;
 }
 
 .column-one {
