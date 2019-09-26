@@ -15,7 +15,9 @@ header ul {
 
 .left-side {
     display: flex;
-    width: 50px;
+    flex-direction: row;
+    width: 205px;
+    justify-content: space-between;
 }
 
 .right-side {
@@ -25,9 +27,10 @@ header ul {
     justify-content: space-between;
 }
 
-a.hambuger-icon {
-    height: 20px;
-    width: 30px;
+.left-side i {
+    font-size: 50px;
+    margin-left: 2px;
+    margin-top: 5px;
 }
 
 .user-icon {
@@ -43,9 +46,8 @@ a.hambuger-icon {
 
 .logo-icon {
     height: 60px;
-    width: 125px;
-    display: relative;
-    bottom: 10px;
+    width: 150px;
+    margin-right: 2px;
 }
 
 .upload-icon {
@@ -157,15 +159,21 @@ a.hambuger-icon {
 }
 
 .column-one {
-    width: 80%;
+    width: 75%;
 }
 
 .column-one iframe {
     width: 98%;
-    height: 500px;
+    height: 664px;
 }
 
 a {
     text-decoration: none;
     color: grey;
 }
+
+iframe {
+    border: 0;
+}
+
+.column-two {}

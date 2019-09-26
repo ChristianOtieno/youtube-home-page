@@ -8,52 +8,50 @@
     <title>Youtube Home Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
 </head>
 
 <body>
     <main></main>
     <header>
-        <ul>
-            <div class="left-side">
-                <div>
-                    <a href="#"><img class="hamburger-icon" src="../images/Hamburger_icon.svg.png" alt=""></a>
-                </div>
-                <div>
-                    <a href="#"><img src="../images/youtube-logo.jpg" class="logo-icon" alt=""></a>
-                </div>
+        <div class="left-side">
+            <div>
+                <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
 
-            <div class="search-bar">
-                <li style="display: flex" class="search-area"><input type="text" class="text-space" placeholder="Search">
-                    <button type="button">SEARCH</button>
-                </li>
+            <div>
+                <img src="https://dslv9ilpbe7p1.cloudfront.net/P08RNJy6Hvk8q7uqDRgnog_store_banner_image.jpeg" class="logo-icon" alt="">
             </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="text-space" placeholder="Search">
+            <button type="button">SEARCH</button>
+        </div>
 
-            <div class="right-side">
-                <div>
-                    <li>
-                        <a href="#" title="Create a video or a post"><img class="upload-icon" src="../images/recorder-icon.jpg" alt=""></a>
-                    </li>
+        <div class="right-side">
+            <div>
 
-                </div>
-                <div>
-                    <li>
-                        <a href="#" title="Notifications"><img class="bell-icon" src="../images/notification-bell.png" alt=""></a>
-                    </li>
+                <i class="fa fa-video-camera fa-6" aria-hidden="true"></i>
 
-                </div>
-                <div>
-                    <li>
-                        <a href="#"><img class="user-icon" src="../images/user-icon.svg" alt=""></a>
-                    </li>
-                </div>
             </div>
+            <div>
 
-        </ul>
+                <i class="fa fa-th" aria-hidden="true"></i>
+
+            </div>
+            <div>
+
+                <i class="fa fa-comment" aria-hidden="true"></i>
+
+
+                <i class="fa fa-bell" aria-hidden="true"></i>
+
+            </div>
+        </div>
     </header>
-    <section class="container">
+    <div class="container">
         <div class="column-one">
-            <iframe height="315" src="https://www.youtube.com/embed/0g2lZgKugoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe height="315" src="https://www.youtube.com/embed/0g2lZgKugoY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="video-description">
                 <div>
                     <p>BBC News Countdown Theme 2014 (Extended Club Remix 2015)</p>
@@ -64,14 +62,14 @@
                         <span>837,730 views</span>
                     </div>
                     <div class="reactions">
-                        <div><a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a></div>
-                        <div><a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                        <div><i class="fas fa-thumbs-up"></i></div>
+                        <div><i class="fas fa-thumbs-down"></i>
                         </div>
-                        <div><a href="#" title="Share"><i class="fas fa-share"></i>SHARE</a></div>
+                        <div><i class="fas fa-share"></i>SHARE</div>
                     </div>
                 </div>
             </div>
-            <section class="owner-section">
+            <div class="owner-section">
                 <div class="content-owner">
                     <div class="owner-info">
                         <div>
@@ -92,15 +90,15 @@
                     <span>mp3 here: <a href="#">https://bit.ly/2Xcefr0</a></span><br><br>
                     <a href="#">SHOW MORE</a><br><br>
                 </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <div class="content-users">
                     <div class="comment-numbers">
                         <div>
                             <span> 435 Comments </span>
                         </div>
                         <div class="sort-icon">
-                            <a href="#"></a><img src="../images/sortcomments.jpg" alt="">SORT BY</a>
+                            <a href="#"><img src="../images/sortcomments.jpg" alt="">SORT BY</a>
                         </div>
 
                     </div>
@@ -109,8 +107,8 @@
                         <div class="comment-box"><input class="text-box" type="text" placeholder="Add a public comment"></div>
                     </div>
                 </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <div class="user-comments">
                     <div>
                         <a href="#"><img src="../images/user-icon.svg" alt=""></a>
@@ -124,7 +122,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -142,7 +140,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -160,7 +158,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -178,7 +176,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -196,7 +194,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -214,7 +212,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -232,7 +230,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -250,7 +248,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -268,7 +266,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -286,7 +284,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -304,7 +302,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -322,7 +320,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -340,7 +338,7 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
                     </div>
@@ -358,204 +356,203 @@
                         </div>
                         <div class="user-comments-links">
                             <a href="#" title="Like"><i class="fas fa-thumbs-up"></i></a>
-                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a></i>
+                            <a href="#" title="Dislike"><i class="fas fa-thumbs-down"></i></a>
                             <a href="#">view replies</a>
                         </div>
-                    </div>
-                </div>
-        </div>
-        <section class="column-two">
-
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>The next revolutionary electric car</p>
-                    </div>
-                    <div>
-                        <p>Car Generals</p>
-                        <p>345k views</p>
                     </div>
                 </div>
             </div>
-
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>The rose blue flower rose blooms</p>
-                    </div>
-                    <div>
-                        <p>The flower specialists</p>
-                        <p>45k views</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>The next sadop</p>
-                    </div>
-                    <div>
-                        <p>The secret</p>
-                        <p>5k views</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>Why are we sad?</p>
-                    </div>
-                    <div>
-                        <p>The Mentalist</p>
-                        <p>20k views</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
+            <div class="column-two">
+                <div class="playlist">
                     <div class="screenshot">
-                        <p>The next theory of space</p>
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div>
-                        <p>Chandrayaans</p>
-                        <p>345M views</p>
+                    <div class="playlist-info">
+                        <div>
+                            <p>The next revolutionary electric car</p>
+                        </div>
+                        <div>
+                            <p>Car Generals</p>
+                            <p>345k views</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>The Blood Moon</p>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div>
-                        <p>The Scientists</p>
-                        <p>3B views</p>
+                    <div class="playlist-info">
+                        <div>
+                            <p>The rose blue flower rose blooms</p>
+                        </div>
+                        <div>
+                            <p>The flower specialists</p>
+                            <p>45k views</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>The next sadop</p>
+                        </div>
+                        <div>
+                            <p>The secret</p>
+                            <p>5k views</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>Why are we sad?</p>
+                        </div>
+                        <div>
+                            <p>The Mentalist</p>
+                            <p>20k views</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div class="screenshot">
+                            <p>The next theory of space</p>
+                        </div>
+                        <div>
+                            <p>Chandrayaans</p>
+                            <p>345M views</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>The Blood Moon</p>
+                        </div>
+                        <div>
+                            <p>The Scientists</p>
+                            <p>3B views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p class="header">Nature at its best sounds</p>
+                        </div>
+                        <div>
+                            <p>Naturists</p>
+                            <p>901k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>Why newborns are playful</p>
+                        </div>
+                        <div>
+                            <p>Mom Chief</p>
+                            <p>34k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>Lord Shiva is Angry</p>
+                        </div>
+                        <div>
+                            <p>Hindu News</p>
+                            <p>345k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>Birds are peaceful creatures</p>
+                        </div>
+                        <div>
+                            <p>Free Birds</p>
+                            <p>745k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>Non-melodic sounds</p>
+                        </div>
+                        <div>
+                            <p>Chillstep</p>
+                            <p>200M views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>Best Movies in 2019</p>
+                        </div>
+                        <div>
+                            <p>Pexels</p>
+                            <p>34k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="screenshot">
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="playlist-info">
+                        <div>
+                            <p>The wild waters</p>
+                        </div>
+                        <div>
+                            <p>Aqua</p>
+                            <p>345k views</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p class="header">Nature at its best sounds</p>
-                    </div>
-                    <div>
-                        <p>Naturists</p>
-                        <p>901k views</p>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>Why newborns are playful</p>
-                    </div>
-                    <div>
-                        <p>Mom Chief</p>
-                        <p>34k views</p>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>Lord Shiva is Angry</p>
-                    </div>
-                    <div>
-                        <p>Hindu News</p>
-                        <p>345k views</p>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>Birds are peaceful creatures</p>
-                    </div>
-                    <div>
-                        <p>Free Birds</p>
-                        <p>745k views</p>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>Non-melodic sounds</p>
-                    </div>
-                    <div>
-                        <p>Chillstep</p>
-                        <p>200M views</p>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>Best Movies in 2019</p>
-                    </div>
-                    <div>
-                        <p>Pexels</p>
-                        <p>34k views</p>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="screenshot">
-                    <iframe width="300" height="150" src="https://www.youtube.com/embed/Ak1-qLbHHCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="playlist-info">
-                    <div>
-                        <p>The wild waters</p>
-                    </div>
-                    <div>
-                        <p>Aqua</p>
-                        <p>345k views</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </section>
-    </section>
+        </div>
+    </div>
 
 
 </body>
