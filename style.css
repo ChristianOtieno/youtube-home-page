@@ -7,8 +7,9 @@ ul {
     list-style: none;
 }
 
-header ul {
+header {
     width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -20,6 +21,16 @@ header ul {
     justify-content: space-between;
 }
 
+.search-bar input[type="text"] {
+    height: 30px;
+    width: 600px;
+    margin-right: 0;
+}
+
+.search-bar {
+    display: flex;
+}
+
 .right-side {
     width: 150px;
     display: flex;
@@ -28,7 +39,7 @@ header ul {
 }
 
 .left-side i {
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 2px;
     margin-top: 5px;
 }
@@ -45,7 +56,7 @@ header ul {
 }
 
 .logo-icon {
-    height: 60px;
+    height: 35px;
     width: 150px;
     margin-right: 2px;
 }
@@ -63,6 +74,7 @@ header ul {
 
 [type="button"] {
     width: 90px;
+    height: 35px;
 }
 
 .search-area .text-space {
@@ -175,5 +187,3 @@ a {
 iframe {
     border: 0;
 }
-
-.column-two {}
