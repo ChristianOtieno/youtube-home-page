@@ -1,4 +1,3 @@
-
 img {
     height: 40px;
     width: 40px;
@@ -8,15 +7,28 @@ ul {
     list-style: none;
 }
 
-header ul {
+header {
     width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .left-side {
     display: flex;
-    width: 50px;
+    flex-direction: row;
+    width: 205px;
+    justify-content: space-between;
+}
+
+.search-bar input[type="text"] {
+    height: 30px;
+    width: 600px;
+    margin-right: 0;
+}
+
+.search-bar {
+    display: flex;
 }
 
 .right-side {
@@ -26,9 +38,10 @@ header ul {
     justify-content: space-between;
 }
 
- a.hambuger-icon {
-    height: 20px;
-    width: 30px;
+.left-side i {
+    font-size: 30px;
+    margin-left: 2px;
+    margin-top: 5px;
 }
 
 .user-icon {
@@ -43,10 +56,9 @@ header ul {
 }
 
 .logo-icon {
-    height: 60px;
-    width: 125px;
-    display: relative;
-    bottom:10px;
+    height: 35px;
+    width: 150px;
+    margin-right: 2px;
 }
 
 .upload-icon {
@@ -62,6 +74,7 @@ header ul {
 
 [type="button"] {
     width: 90px;
+    height: 35px;
 }
 
 .search-area .text-space {
@@ -69,12 +82,10 @@ header ul {
     width: 600px;
 }
 
-.suscribe-img{
+.suscribe-img {
     height: 50px;
     width: 100px;
 }
-
-/*************/
 
 .feedback-section {
     display: flex;
@@ -92,9 +103,6 @@ header ul {
     width: 200px;
     justify-content: space-between;
 }
-
-
-/************/
 
 .owner-section {
     width: 98%;
@@ -139,9 +147,6 @@ header ul {
     border-bottom: 2px solid gray;
 }
 
-
-/****************/
-
 .user-comments {
     display: flex;
     width: 98%;
@@ -165,21 +170,17 @@ header ul {
     display: flex;
 }
 
-
-/* Styling the aside  */
-
-.screenshot img {
-    height: 150px;
-    width: 300px;
+.column-one {
+    width: 75%;
 }
 
-.column-one {
-    width: 80%;
+iframe {
+    border: 0;
 }
 
 .column-one iframe {
     width: 98%;
-    height: 500px;
+    height: 664px;
 }
 
 a {
